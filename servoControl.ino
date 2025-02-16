@@ -2,7 +2,7 @@
 #define SERVO_PIN1 13  
 #define SERVO_PIN2 14
 
-Servo serv1;  // Create Servo object
+Servo serv1;
 Servo serv2;
 
 void setup() {

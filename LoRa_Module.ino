@@ -60,6 +60,7 @@ void loop() {
 
     // LoRa2 Receiving
     int packetSize = LoRa2.parsePacket();
+    
     if (packetSize) {
         Serial.print("LoRa2 received: ");
         while (LoRa2.available()) {
